@@ -55,7 +55,7 @@ RSpec.describe StrongLocals::Locals do
       add(:llama, model: true)
 
     expect(locals.validate(local_assigns)).to eq({
-      ages: ["not model"]
+      llama: ["not model"]
     })
   end
 
@@ -66,7 +66,7 @@ RSpec.describe StrongLocals::Locals do
       add(:age, numeric: true)
 
     expect(locals.validate(local_assigns)).to eq({
-      name: ["not numeric"]
+      age: ["not numeric"]
     })
   end
 

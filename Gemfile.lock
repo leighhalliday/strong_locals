@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    StrongLocals (0.1.0)
+    strong_locals (0.1.0)
       rails (>= 4.0)
 
 GEM
@@ -124,9 +124,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  StrongLocals!
   rake
   rspec (~> 3.5)
+  strong_locals!
 
 BUNDLED WITH
    1.14.3

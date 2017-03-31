@@ -1,7 +1,7 @@
 module StrongLocals
   module Validation
     class Model < Base
-      MESSAGE = 'not active record model instance'.freeze
+      MESSAGE = 'not model'.freeze
 
       def valid?
         return true unless options
