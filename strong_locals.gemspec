@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "strong_locals/version"
 
 Gem::Specification.new do |s|
-  s.name        = "StrongLocals"
+  s.name        = "strong_locals"
   s.version     = StrongLocals::VERSION
   s.authors     = ["Leigh Halliday"]
   s.email       = ["leighhalliday@gmail.com"]
